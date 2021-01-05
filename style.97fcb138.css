@@ -9,8 +9,11 @@ body {
 }
 
 img {
-  max-width: 100%;
-  border-radius: 10px;
+  max-width: 190px;
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 h1 {
