@@ -38,6 +38,10 @@ section > h3 {
   margin-top: 2em;
 }
 
+section > h1 ~ h3 {
+  margin-top: 1em;
+}
+
 h4 {
   font-weight: 400;
   font-size: 0.8em;
@@ -54,7 +58,7 @@ p {
 .right__heading {
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
 }
 
@@ -90,7 +94,7 @@ section {
 
 .right {
   background-color: #05055a;
-  width: 38.11%;
+  width: 35%;
   color: #fff;
   padding: 3em;
 }
@@ -99,7 +103,7 @@ section {
 }
 
 .left {
-  width: 61.77%;
+  width: 65%;
   flex: 1;
   color: #05055a;
   padding: 3em;
@@ -131,8 +135,8 @@ section {
 .skill__item .sub {
   color: #9b9ba1;
   text-transform: uppercase;
-  font-size: 0.8em;
-  letter-spacing: 0.02;
+  font-size: 0.7em;
+  letter-spacing: 0.02em;
   font-weight: 600;
 }
 
@@ -142,7 +146,7 @@ section {
 .skill__section p {
   display: flex;
   align-items: center;
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1em;
   color: #fff;
 }
@@ -150,7 +154,7 @@ section {
 .right__subheading {
   text-transform: uppercase;
   color: #9b9ba1;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 700;
   margin-bottom: 5px;
 }
