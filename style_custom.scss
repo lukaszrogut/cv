@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 1480px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f9f9f9;
+    font-size: 16px;
+  }
+  
+  img {
+    max-width: 220px;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  section > h3 {
+    margin-top: 2em;
+  }
+  
+  section > h1 ~ h3 {
+    margin-top: 1em;
+  }
+  
+  h4 {
+    font-weight: 400;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #555353;
+  }
+  
+  .right__heading {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  
+  ul {
+    padding-left: 1em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #555353;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: 400;
+    transition: all 0.5s;
+  }
+  a:hover {
+    color: #05055a;
+  }
+  
+  section {
+    margin-bottom: 3em;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+  }
+  
+  .right {
+    background-color: #05055a;
+    width: 35%;
+    color: #fff;
+    padding: 3em;
+  }
+  .right > img {
+    margin-bottom: 3em;
+  }
+  
+  .left {
+    width: 65%;
+    flex: 1;
+    color: #05055a;
+    padding: 3em;
+  }
+  
+  .heading__section {
+    padding-left: 2em;
+    margin-bottom: 3em;
+  }
+  .heading__section i {
+    color: #fff;
+    font-size: 1.5em;
+    width: 30px;
+    margin-right: 0.5em;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  
+  .skill__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  .skill__item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .skill__item .sub {
+    color: #9b9ba1;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  
+  .skill__section {
+    padding-left: 0;
+  }
+  .skill__section p {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    line-height: 1em;
+    color: #fff;
+  }
+  
+  .right__subheading {
+    text-transform: uppercase;
+    color: #9b9ba1;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .right__text {
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: 400;
+    margin: 0 0 1em 0;
+  }
+  
+  .signature p {
+    font-size: 0.7em;
+  }
+  
+  /*# sourceMappingURL=/style.97fcb138.css.map */
